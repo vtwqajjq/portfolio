@@ -1,0 +1,60 @@
+.home_section {
+    display: flex;
+    align-items: center;
+    height: 93vh;
+}
+
+.section_info {
+    display: grid;
+    grid-template-columns: 1.7fr 0.3fr;
+    grid-template-rows: 1fr 0.1fr;
+    gap: 45px 0;
+    grid-auto-flow: row;
+    grid-template-areas:
+    ". ."
+    "section_button section_button";
+    width: 60%;
+    margin: 0 auto;
+    background-color: deepskyblue;
+}
+
+.section_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.section_text h1 {
+    width: 60%;
+    text-align: center;
+}
+
+.section_photo {
+    display: flex;
+    justify-content: right;
+    height: 400px;
+    background-color: #4c4d4d;
+}
+
+.section_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: section_button;
+    width: 145px;
+    height: 55px;
+    margin: 0 auto;
+    color: #6610F2;
+    border: 2px solid #6610F2;
+    border-radius: 55px;
+    transition: all 0.7s ease;
+}
+
+.section_button:hover,
+.section_button:active {
+    background-color: rgb(87, 11, 211);
+    color: #FFFF;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+}

@@ -1,0 +1,17 @@
+.header_nav {
+    width: 960px;
+    height: 100%;
+    border: 1px solid white;
+}
+
+.navbar_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.nav_link {
+    color: #FAFAFAE6;
+}

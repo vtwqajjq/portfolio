@@ -1,0 +1,41 @@
+.header_text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 200px;
+}
+
+.header_text h2{
+    position: absolute;
+    padding-top: 0.1rem;
+    color: rgb(142, 154, 157);
+    opacity: 0.1;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    font-size: calc(1.95rem + 8.4vw);
+    text-transform: uppercase;
+}
+
+.header_text p{
+    position: absolute;
+    padding-top: calc(1.1rem + 3.4vw);
+    margin-bottom: calc(1.1rem + 3.4vw);
+    font-size: 2.25rem;
+    color: rgb(255,255,255);
+    font-weight: 600;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+}
+
+.header_text p::after {
+    content:'';
+    position: absolute;
+    background-color: #6610F2;
+    width: 30%;
+    height: 3px;
+    bottom: 0;
+    left: 35%;
+}
